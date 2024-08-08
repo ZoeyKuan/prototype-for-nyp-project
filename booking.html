@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>prototype</title>
+ <link rel="stylesheet" href="fie.css">
+ <style>
+  img { border-radius: 20px;}
+  .row-space-between { gap: 20px;}
+  .container {
+   background-color: #2a5a65; border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   padding: 15px;
+  }
+  .col, h2, h3 {margin: 0 0 15px 0;}
+  /* .samsung {max-height: 100%;} */
+ </style>
+</head>
+<body>
+
+ <div class="center">
+  <div class="samsung">
+   <a href="fie.html" class="close-videocall">X</a>
+
+   <div class="center" style="height: 90%;">
+
+    <div class="container">
+ 
+     <div class="row-space-between">
+      <div class="col">
+       <img src=
+       "https://st3.depositphotos.com/9998432/13335/v/450/depositphotos_133352010-stock-illustration-default-placeholder-man-and-woman.jpg"
+        alt="therapistNum">
+       </div>
+       <div class="col" style="height: 150px;">
+        <h2>&#60; imaginary name &#62;</h2>
+        <h3>Availability: Weekdays / Weekends</h3>
+        <h3>$--.-- per hour.<br> Reduce by % if in minutes.</h3>
+       </div>
+     </div>
+     
+     <div class="row-space-between">
+      <h2>Date & Time of Appointment:</h2>
+      <input type="datetime-local" name="datetime" id="date">
+     </div>
+
+     <div class="row center" style="height: auto;">
+      <div onclick="b()" class="submit-btn">Submit</div>
+     </div>
+ 
+    </div>
+
+   </div>
+
+  </div>
+ </div>
+
+ <script>
+  function b(){
+   console.log('i didt it')
+   sessionStorage.setItem('booking',
+   'You have an appointment with &#60; imaginary name &#62; !');
+  }
+ </script>
+</body>
+</html>

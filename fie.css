@@ -1,0 +1,122 @@
+h1, h2, h3, h4, h5 {
+ font-weight: 100;
+ color: whitesmoke;
+ font-family: Arial, Helvetica, sans-serif;
+}
+a { text-decoration: none; color: whitesmoke;}
+.row-space-between {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.col {
+ display: flex;
+ flex-direction: column;
+}
+.close-videocall{
+ font-size: 30px;
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: #2a5a65;
+ padding: 5px 12px;
+ border-radius: 50%;
+}
+.close-videocall:hover{
+ filter: brightness(150%);
+ cursor: pointer;
+}
+.center {
+ height: 100vh;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.booking {
+ cursor: pointer;
+ width: 100%;
+ padding: 10px;
+ text-align: center;
+ border-radius: 15px;
+ box-shadow: #2a5a65 0px 0px 20px 0px;
+ background-color: #2a5a65;
+}
+.samsung {
+ overflow-y: auto;
+ overflow-x: hidden;
+ padding: 40px;
+ background-color: #0c1a1d;
+ width: 30%;
+ height: 80%;
+ border-radius: 20px;
+}
+small { margin: 0; padding: 0; font-size: medium; }
+.slider1 {
+ width: 100%;
+ overflow: hidden;
+}
+.slider2 {
+ width: 100%;
+ overflow: hidden;
+}
+.inner-slider {
+ display: flex;
+ gap: 1.5em;
+}
+p {
+ color: #c1f2fd;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+ border-radius: 10px;
+ background-color: #18333a;
+ filter: opacity(80%);
+ border: solid 1px black;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.card:hover {
+ filter: opacity(100%);
+}
+img { border-radius: 10px 10px 0 0; width: 150px; height: 150px;}
+
+.list-view {
+ margin-top: 20px;
+ display: flex;
+ flex-direction: column;
+ row-gap: 30px;
+}
+
+.list-item {
+ background-color: #18333a;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ align-items: center;
+ padding-left: 20px;
+ border-radius: 20px;
+}
+.list-item img {
+ display: flex;
+ flex-direction: column;
+}
+.details {
+ width: 200px;
+ display: flex;
+ flex-direction: column;
+}
+.submit-btn {
+ cursor: pointer;
+ box-sizing: border-box;
+ display: block;
+ background-color: #18333a;
+ color: #c1f2fd;
+ padding: 10px 45% 10px 45%;
+ border-radius: 10px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.submit-btn:hover {
+ filter: brightness(120%);
+}
+/* .submit-btn:active maybe add a tick box */

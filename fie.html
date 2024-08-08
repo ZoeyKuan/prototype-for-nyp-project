@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>prototype</title>
+ <link rel="stylesheet" href="fie.css">
+</head>
+<body onload="load()">
+
+ <div class="center">
+  
+  <div class="samsung">
+   <!-- start of app content -->
+   <h1 style="line-height: 0.7;"><b>Hi, &#60; Name &#62;</b><br>
+    <small>Meet your free-lancer therapist now!</small>
+   </h1>
+
+   <a href="booking.html">
+    <div class="booking">
+     <h4>You have no bookings!</h4>
+    </div>
+   </a>
+
+   <div class="row-space-between">
+    <h2>Therapists ready for call</h2>
+    <a onclick="sessionStorage.setItem('listType', 'therapistList');" href="therapist-sounds-list.html"><h3>See All</h3></a>
+   </div>
+   <div class="slider1">
+    <div class="inner-slider">
+     <div class="card">
+      <img src=
+      "https://upload.wikimedia.org/wikipedia/commons/c/ca/Osama_bin_Laden_portrait.jpg"
+      alt="Your Therapist">
+      <p>Ben Laden</p>
+     </div>
+    </div>
+   </div>
+
+   <h3 style="margin-bottom: 0;">Free Alternative</h3>
+   <div class="row-space-between">
+    <h2 style="margin-top: 0;">Sleep Sounds</h2>
+    <a onclick="sessionStorage.setItem('listType', 'sleepSounds');" href="therapist-sounds-list.html">
+     <h3 style="margin-top: 0;">See All</h3>
+    </a>
+   </div>
+   <div class="slider2">
+    <div class="inner-slider"></div>
+   </div>
+   <!-- end of app content -->
+  </div>
+
+ </div>
+ 
+ <script src="fie.js"></script>
+</body>
+</html>

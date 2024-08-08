@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>prototype</title>
+ <link rel="stylesheet" href="fie.css">
+ <style>
+  .samsung { overflow: hidden;}
+ </style>
+</head>
+<body>
+
+ <div class="center">
+  
+  <div class="samsung">
+   <a href="#" class="close-videocall">X</a>
+   <div class="col center" style="height: 100%;">
+    <iframe width="100%" height="40%" src="https://www.youtube.com/embed/GHndZUlBbKc?si=JasweGfkXL3tN23c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>Lorem Ipsum</h2>
+   </div>
+
+  </div>
+
+ </div>
+ 
+ <script>
+  const therapistName = sessionStorage.getItem('therapist');
+  document.querySelector('h2').innerHTML = `In call with:<br>Therapist ${therapistName}`;
+  
+  const closebtn = document.querySelector('.close-videocall');
+  closebtn.href = sessionStorage.getItem('prevPage');
+ </script>
+</body>
+</html>
