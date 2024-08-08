@@ -14,4 +14,5 @@
 - it was easier to code and easier to manage the routing by using only the anchor html. some of the pages were completely reliant on javascript to generate its content which removes the hassle of creating each item by dragging and clicking
 - typing is faster than moving the mouse and typing the words. this duration is further shorten when i can reuse code snippets or use available codes to create our prototype, thus faster production of pages
 > took >2hrs to create all of the pages and making it semi-functional
+
 > only con is that making it pretty would take more time to create the assets, as such is the same for using adobe xd
